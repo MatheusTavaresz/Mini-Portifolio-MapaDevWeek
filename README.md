@@ -1,4 +1,4 @@
-# DevWeek
+# Mini Portifólio
 
 ![preview](./.github/preview.png)
 
