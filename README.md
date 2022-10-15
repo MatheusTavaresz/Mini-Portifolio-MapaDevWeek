@@ -2,6 +2,8 @@
 
 Mini Portifólio com centralizador de links.
 
+![preview](./.github/preview.png)
+
 ## Tecnologias 
 
 - JS
