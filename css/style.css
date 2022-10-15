@@ -9,7 +9,7 @@ ul * {
 }
 
 body {
-  background-image: url("../src/images/fundo-site.jpg");
+  background-image: url("../src/images/background.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,15 +39,16 @@ body {
   height: 90px;
   width: 90px;
   border-radius: 50%;
-  border: #e126d9 4px solid;
+  border: #097b67 4px solid;
 }
 
 .cartao {
   background-color: black;
   width: 350px;
-  border: 2px solid #e126d9;
+  border: 2px solid #097b67;
   overflow: hidden;
   height: 510px;
+  border-radius: 10px
 }
 
 .minhas-informacoes {
