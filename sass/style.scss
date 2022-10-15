@@ -8,8 +8,12 @@ ul *{
  list-style: none;
 }
 
+p{
+  margin-bottom: 8px;
+}
+
 body{
-  background-image: url('../src/images/fundo-site.jpg');
+  background-image: url('../src/images/background.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -40,14 +44,16 @@ body{
   height: 90px;
   width: 90px;
   border-radius: 50%;
-  border: #e126d9 4px solid;
+  border: #22b2c5 4px solid;
 
 }
 
-.cartao{
+.cartao {
   background-color: black;
   width: 350px;
-  border: 2px solid #e126d9;
+  border: 2px solid #14e2db;
+  border-radius: 8px;
+  opacity: 90%;
   overflow: hidden;
   height: 510px;
 }
@@ -118,6 +124,12 @@ body{
     font-size: 20px;
     max-height: 180px;
     overflow-y: auto;
+
+    a{
+      text-decoration: none;
+      margin-left: 30px;
+      color: #02d08f;
+    }
 
     span{
       color: #02d08f;

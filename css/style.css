@@ -8,6 +8,10 @@ ul * {
   list-style: none;
 }
 
+p {
+  margin-bottom: 8px;
+}
+
 body {
   background-image: url("../src/images/background.gif");
   background-size: cover;
@@ -39,16 +43,17 @@ body {
   height: 90px;
   width: 90px;
   border-radius: 50%;
-  border: #097b67 4px solid;
+  border: #22b2c5 4px solid;
 }
 
 .cartao {
   background-color: black;
   width: 350px;
-  border: 2px solid #097b67;
+  border: 2px solid #14e2db;
+  border-radius: 8px;
+  opacity: 90%;
   overflow: hidden;
   height: 510px;
-  border-radius: 10px
 }
 
 .minhas-informacoes {
@@ -108,6 +113,11 @@ body {
   font-size: 20px;
   max-height: 180px;
   overflow-y: auto;
+}
+.informacoes-abas .descricao a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: #02d08f;
 }
 .informacoes-abas .descricao span {
   color: #02d08f;
