@@ -1,8 +1,8 @@
 ## DevWeek
 
-Mini Portifólio com centralizador de links.
+![preview](./.github/preview.jpg)
 
-![preview](./.github/preview.png)
+Mini Portifólio com centralizador de links.
 
 ## Tecnologias 
 
