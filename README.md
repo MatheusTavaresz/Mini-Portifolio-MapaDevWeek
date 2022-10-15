@@ -12,6 +12,6 @@ Mini Portifólio com centralizador de links.
 
 ## Contato
 
-mathtg2@gmail.com
+Email: mathtg2@gmail.com
 <br/>
-linkedin: https://www.linkedin.com/in/matheus-patrickz/
+LinkedIn: https://www.linkedin.com/in/matheus-patrickz/
