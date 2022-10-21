@@ -2,9 +2,11 @@
 
 ![preview](./.github/preview.png)
 
+## 💻 Projeto
+
 Mini Portifólio com centralizador de links.
 
-## Tecnologias
+## 🚀 Tecnologias
 
 - JS
 - HTML
@@ -12,7 +14,7 @@ Mini Portifólio com centralizador de links.
 - Sass
 - Git e GitHub
 
-## Contato
+## 📧 Contato
 
 - Email: mathtg2@gmail.com
 - LinkedIn: https://www.linkedin.com/in/matheus-patrickz/
