@@ -16,7 +16,7 @@ abas.forEach(aba => {
       const idDoElementoDeInformacoesDaAba = `informacao-${aba.id}`
 
       const informacaoASerMostrada = document.getElementById(idDoElementoDeInformacoesDaAba)
-      informacaoASerMostrada.classList.add("selecionado")
+      informacaoASerMostrada.classList.add("selecionado", "projects")
 
   })
 })

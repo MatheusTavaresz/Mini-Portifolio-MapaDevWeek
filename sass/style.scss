@@ -40,6 +40,19 @@ body{
   outline: 1px solid slategrey;
 }
 
+.projetos::-webkit-scrollbar {
+  width: 1px;
+}
+ 
+.projetos::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+}
+ 
+.projetos::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 .profile-image{
   height: 90px;
   width: 90px;
@@ -56,6 +69,7 @@ body{
   opacity: 90%;
   overflow: hidden;
   height: 510px;
+  margin-top: 50px;
 }
 
 .minhas-informacoes{
@@ -92,6 +106,7 @@ body{
   justify-content: center;
   padding: 10px 0;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 .selecionada{
@@ -173,5 +188,69 @@ body{
 
     }
   }
+
+  .projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+
+    li{
+      margin-bottom: 10px;
+      a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        width: 250px;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      #login{
+        background-color: #0f0e0e;
+        &:hover{
+          transition: 0.5s;
+          background-color: rgb(17, 180, 129);
+        }
+      }
+
+      #explorer-lab{
+        background-color: #0f0e0e;
+        &:hover{
+          transition: 0.5s;
+          background-color: rgb(17, 180, 129);
+        }
+      }
+
+      #nlw-explorer{
+        background-color: #0f0e0e;
+        &:hover{
+          transition: 0.5s;
+          background-color: rgb(17, 180, 129);
+        }
+      }
+
+      #landingPage{
+        background-color: #0f0e0e;
+        &:hover{
+          transition: 0.5s;
+          background-color: rgb(17, 180, 129);
+        }
+      }
+
+
+
+    }
+  }
+
+  .projects{
+    border: solid 2px rgb(0, 0, 0);
+
+  }
+  
 
 }
