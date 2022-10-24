@@ -216,6 +216,13 @@ body {
   transition: 0.5s;
   background-color: rgb(17, 180, 129);
 }
+.informacoes-abas .projetos li #oneBitSports {
+  background-color: #0f0e0e;
+}
+.informacoes-abas .projetos li #oneBitSports:hover {
+  transition: 0.5s;
+  background-color: rgb(17, 180, 129);
+}
 .informacoes-abas .projects {
   border: solid 2px rgb(0, 0, 0);
 }

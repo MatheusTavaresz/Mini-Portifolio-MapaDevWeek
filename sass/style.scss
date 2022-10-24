@@ -242,6 +242,14 @@ body{
         }
       }
 
+      #oneBitSports{
+        background-color: #0f0e0e;
+        &:hover{
+          transition: 0.5s;
+          background-color: rgb(17, 180, 129);
+        }
+      }
+
 
 
     }
